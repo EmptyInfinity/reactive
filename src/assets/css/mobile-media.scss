@@ -1,0 +1,23 @@
+@media all and (min-width: 520px) {
+  h2 {
+    font-size: 7vw;
+  }
+  .page-mode {
+    transform: none;
+  }
+}
+@media all and (min-width: 768px) {
+  h2 {
+    font-size: 5vw;
+  }
+}
+@media all and (min-width: 992px) {
+  h2 {
+    font-size: 4vw;
+  }
+}
+@media all and (min-width: 1198px) {
+  h2 {
+    font-size: 3vw;
+  }
+}

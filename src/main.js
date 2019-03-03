@@ -2,6 +2,9 @@ import Vue from "vue";
 import App from "./App.vue";
 import store from "./store";
 import "./assets/css/font.scss";
+import "./assets/css/humburger.css";
+import "./assets/css/desktop.scss";
+import "./assets/css/mobile-media.scss";
 
 Vue.config.productionTip = false;
 
@@ -12,7 +15,7 @@ new Vue({
 
 let i = 0;
 let txt = "Reactive web studio.";
-let speed = 70;
+let speed = 60;
 
 function typeWriter() {
   if (i < txt.length) {
