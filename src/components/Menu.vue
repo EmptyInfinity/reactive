@@ -78,16 +78,11 @@ export default {
 .logo {
   position: static;
   font-size: 50px;
-  // border-radius: 50%;
-  // border: 4px solid rgba(31, 31, 31, 0.98);
+  border-radius: 0 50px 0 50px;  
   padding: 4px 22px;
   display: flex;
   align-items: center;
   justify-content: center;
-  // color: rgba(31, 31, 31, 0.98);
-  // background: linear-gradient(#f8870ed4, #e75b66e8);
-  // -webkit-background-clip: text;
-  // -webkit-text-fill-color: transparent;
   position: relative;
   display: table;
   text-shadow: 4px 4px 2px #bf545c;
